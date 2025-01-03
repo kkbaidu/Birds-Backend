@@ -11,7 +11,7 @@ const config = {
     env: () => getEnv("NODE_ENV"),
     name: () => getEnv("APP_NAME"),
   },
-  server:{
+  server: {
     port: () => {
       try {
         return getEnv("PORT");
